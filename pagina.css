@@ -1,84 +1,124 @@
 * {
-margin: 0;
-padding: 0;
-font-family: cursive;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
 }
 
+.fa-solid {
+font-size: 50px;
+}
+
+.sesao-grid {
+    padding: 50px;
+}
+
+
+h1 {
+    text-shadow: 3px 3px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
 .cabecalho {
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: black;
-padding: 60px;
-flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 60px;
+    flex-wrap: wrap;
+    color: white;
 }
 
 .rodape i {
-font-size: 100px;
-color: gray;
+    font-size: 100px;
+    color: gray;
 }
 
-.menu{
-display: flex;
+.menu {
+    display: flex;
 }
 
 .menu li a {
-text-decoration: none;
-color: white;
-padding: 10px;
-background-color: #141325;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: white;
 }
 
+.menu li {
+    margin-left: 10px;
+    list-style: none;
+    margin: 20px;
+   
+}
 
+.flex {
+    
+    display: flex;
+    max-width: 600px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
 
+.flex img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    text-align: center;
+}
 
+.flex div {
+    margin: 10px;
+    flex: 1 1 200px;
+    margin-right: 20px;
+}
 
+.sessao {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    padding: 40px;
+    background-color: grey;
+    color: black;
+}
 
+.rodape {
+    background-color: black;
+    padding: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.list-rodape {
+display: flex;
+}
 
+.list-rodape li {
+margin-right: 20px;
+list-style: none;
+}
 
+.list-rodape li a {
+text-decoration: none;
+color: white;
+font-size: 25px;
+}
 
+.rodape i {
+color: white;
+font-size: 25px;
+background-color: #141325;
+padding: 10px;
+margin-left: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.flex img {
+    width: 300px;
+    height: 300px;
+}
 
 
 
